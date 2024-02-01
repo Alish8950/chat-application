@@ -1,8 +1,9 @@
+"use client"
+import React, { useState, useEffect } from 'react';
 import ChatComponent from "@/app/components/chatComponent";
 import MessageArea from "@/app/components/messageArea";
 import OppositeProfile from "@/app/components/oppositeProfile";
 import Profile from "@/app/components/profile";
-import React from "react";
 
 const Home = () => {
   return (
