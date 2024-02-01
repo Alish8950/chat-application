@@ -17,6 +17,7 @@ const Rishabh = () => {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState<string[]>([]);
   const [alish, setAlish] = useState("8950208255")
+  console.log(socket)
 
   console.log(messagesRishabh)
 
@@ -36,6 +37,7 @@ const Rishabh = () => {
     });
     console.log("hithithithithithithit")
   }, [countAlish, messagesRishabh]);
+  
   return (
     <>
       <div className="main flex">
